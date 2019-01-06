@@ -1,0 +1,816 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>TRADE</title>
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<!-- <link rel="stylesheet" href="css/bootstrap.css" type="text/css" media="screen"> -->
+<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" media="screen">
+<!-- <link rel="stylesheet" href="css/bootstrap-grid.css" type="text/css" media="screen"> -->
+<link rel="stylesheet" href="css/bootstrap-grid.min.css" type="text/css" media="screen">
+<!-- <link rel="stylesheet" href="css/bootstrap-reboot.css" type="text/css" media="screen"> -->
+<link rel="stylesheet" href="css/bootstrap-reboot.min.css" type="text/css" media="screen">
+<link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
+<link rel="stylesheet" href="css/font-awesome.min.css" type="text/css" media="screen">
+<link href="https://canvasjs.com/assets/css/jquery-ui.1.11.2.min.css" rel="stylesheet" />
+<!-- <link rel="stylesheet" href="css/font-awesome.css" type="text/css" media="screen"> -->
+
+</head>
+<body class="tr_title2">
+<button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa fa-sort-asc"  aria-hidden="true"></i></button>
+<div id="header2">
+			<div class="row">
+				<div class="col-md-3 col-sm-12 text-center one-text-md-2">
+					<a href="http://repobank.io">
+					<img src="logo.png" class="img-fluid">
+					</a>
+				</div>
+				<div class="col-md-5 col-sm-12 text-center text-right">
+					<div class="row">
+						<h1 class="marquee">
+							<span>
+								<div class="quick_info_block2"><p>BTC</p><p>$622.2400</p><p id="percentage">5.96%</p></div>
+								<div class="quick_info_block2"><p>ETH</p><p>$622.2400</p><p id="percentage">5.96%</p></div>
+								<div class="quick_info_block2"><p>LTC</p><p>$622.2400</p><p id="percentage">5.96%</p></div>
+								<div class="quick_info_block2"><p>XRP</p><p>$622.2400</p><p id="percentage">5.96%</p></div>
+								<div class="quick_info_block2"><p>DASH</p><p>$622.2400</p><p id="percentage">5.96%</p></div>
+								<div class="quick_info_block2"><p>BCH</p><p>$622.2400</p><p id="percentage">5.96%</p></div>
+								<div class="quick_info_block2"><p>USD</p><p>$622.2400</p><p id="percentage">5.96%</p></div>
+							</span>
+						</h1>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-12 text-center">
+					<a class="btn btn-secondary dropdown-toggle acc_name" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Account_Name</a>
+						<div class="dropdown-menu drop-mnv" aria-labelledby="dropdownMenuLink">
+							<a class="dropdown-item" href="#">Log out</a>
+						 </div> 
+				 </div> 
+			</div>
+		<p></p><p></p>&nbsp;
+		<div class="row">
+			<div class="col-md-12 redjet">
+			
+			<nav class="navbar navbar-expand-md navbar-light bg-light">
+					<button class="navbar-toggler toogler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+						<!-- <span class="navbar-toggler-icon"></span> -->
+						<i class="fa fa-align-justify"  aria-hidden="true"></i>
+					</button>
+
+					<div class="collapse navbar-collapse" id="navbarSupportedContent">
+						<ul class="navbar-nav mr-auto col-lg-12" >
+						  <li class="nav-item">
+							<a class="nav-link under_dec_need" href="my_dashboard.html">MY DASHBOARD</a>
+						  </li>
+						  <li class="nav-item">
+							<a class="nav-link under_dec_need" href="wallets.html">WALLETS</a>
+						  </li>
+						  <li class="nav-item">
+							<a class="nav-link under_dec" href="trade.html">TRADE</a>
+						  </li>
+						  <li class="nav-item">
+							<a class="nav-link under_dec_need" href="transactions.html">TRANSACTIONS</a>
+						  </li>
+						</ul>
+					</div>
+				</nav>
+			</div>
+		</div>
+	</div>
+
+	<div class="container-fluid fluid-checks">
+		<div class="row tr_title text-right trade_grad">
+
+				<!-- <a type="button" href="#" class="btn btn-light trade_btn" style="margin: 0 15px;">SWITCH TO BASIC</a> -->
+								<select class="btn btn-light tr_btn_1 slc-option jesh">
+									<option>BITCOIN</option>
+									<option>ETHUSD</option>
+									<option>LTCUSD</option>
+									<option>XRPUSD</option>
+									<option>DASHUSD</option>
+									<option>BCHUSD</option>
+									<option>OMGUSD</option>
+									<option>EOSUSD</option>
+									<option>ZECUSD</option>
+									<option>IOTAUSD</option>
+									<option>GNTUSD</option>
+									<option>TRXUSD</option>
+									<option>ZRXUSD</option>
+									<option>UBQUSD</option>
+								</select>
+		</div>
+		<div class="row tr_title trade_grad trd-grasz" >
+			<div class="col-md-8 col-sm-12 col-xs-12 mrg-top">
+				<iframe id="tradingview_bed90" src="https://s.tradingview.com/widgetembed/?frameElementId=tradingview_bed90&amp;symbol=BITFINEX%3ABTCUSD&amp;interval=15&amp;hidesidetoolbar=1&amp;symboledit=0&amp;saveimage=1&amp;toolbarbg=transparent&amp;studies=%5B%5D&amp;hideideas=1&amp;theme=Dark&amp;style=1&amp;timezone=Etc%2FUTC&amp;studies_overrides=%7B%7D&amp;overrides=%7B%22symbolWatermarkProperties.color%22%3A%22rgba(0%2C%200%2C%200%2C%200)%22%7D&amp;enabled_features=%5B%22move_logo_to_main_pane%22%5D&amp;disabled_features=%5B%22compare_symbol%22%2C%22header_indicators%22%2C%22move_logo_to_main_pane%22%2C%22symbol_info%22%2C%22header_symbol_search%22%2C%22edit_buttons_in_legend%22%2C%22legend_context_menu%22%2C%22header_widget%22%2C%22symbol_description%22%5D&amp;locale=en&amp;utm_source=einstein.exchange&amp;utm_medium=widget&amp;utm_campaign=chart&amp;utm_term=BITFINEX%3ABTCUSD" style="width: 100%; height: 500px; margin: 0 !important; padding: 0 !important;" frameborder="0" allowtransparency="true" scrolling="no" allowfullscreen=""></iframe>
+				<div class="row rtstvqa">
+					<div class="col-md-6 col-sm-6 aerons">
+						<h4 class="h4-recover">
+							<i class="fa fa-book" aria-hidden="true"></i> Order Book
+						</h4>
+					</div>
+					<div class="col-md-6 text-right col-sm-6 style-openc">
+						<a type="button" onclick="hide_book()" class="btn btn-light trade_btn ed-btns um-tb">
+							<i class="fa fa-caret-down caret-dnwn-i"  aria-hidden="true" id="book_down"></i>
+							<i class="fa fa-caret-up caret-up-i" aria-hidden="true"  id="book_up"></i>
+						</a>
+					</div>
+					<hr>
+				</div>
+				<div class="row new_bck" id="book">
+					<div class="col-md-6">
+						<table class="table green_tbl">
+						  <thead>
+							<tr>
+							  <th scope="col" class="wht_tbl">Sum</th>
+							  <th scope="col" class="wht_tbl">Value</th>
+							  <th scope="col" class="wht_tbl">Quantity</th>
+							  <th scope="col" class="wht_tbl">Bid</th>
+							</tr>
+						  </thead>
+						  <tbody>
+							<tr>
+							  <th scope="row" class="tp-win">8.11130199</th>
+							  <td class="wht_tbl tp-win">135705.15</td>
+							  <td class="wht_tbl tp-win">1.50000000</td>
+							  <td class="wht_tbl tp-win">7489.19</td>
+							</tr>
+							<tr>
+							  <th scope="row" class="tp-win">8.11130199</th>
+							  <td class="wht_tbl tp-win">135705.15</td>
+							  <td class="wht_tbl tp-win">1.50000000</td>
+							  <td class="wht_tbl tp-win">7489.19</td>
+							</tr>
+							<tr>
+							 <th scope="row" class="tp-win">8.11130199</th>
+							  <td class="wht_tbl tp-win">135705.15</td>
+							  <td class="wht_tbl tp-win">1.50000000</td>
+							  <td class="wht_tbl tp-win">7489.19</td>
+							</tr>
+							<tr>
+							 <th scope="row" class="tp-win">8.11130199</th>
+							  <td class="wht_tbl tp-win">135705.15</td>
+							  <td class="wht_tbl tp-win">1.50000000</td>
+							  <td class="wht_tbl tp-win">7489.19</td>
+							</tr>
+							<tr>
+							 <th scope="row" class="tp-win">8.11130199</th>
+							  <td class="wht_tbl tp-win">135705.15</td>
+							  <td class="wht_tbl tp-win">1.50000000</td>
+							  <td class="wht_tbl tp-win">7489.19</td>
+							</tr>
+							<tr>
+							 <th scope="row" class="tp-win">8.11130199</th>
+							  <td class="wht_tbl tp-win">135705.15</td>
+							  <td class="wht_tbl tp-win">1.50000000</td>
+							  <td class="wht_tbl tp-win">7489.19</td>
+							</tr>
+							<tr>
+							 <th scope="row">8.11130199</th>
+							  <td class="wht_tbl tp-win">135705.15</td>
+							  <td class="wht_tbl tp-win">1.50000000</td>
+							  <td class="wht_tbl tp-win">7489.19</td>
+							</tr>
+							<tr>
+							 <th scope="row" class="tp-win">8.11130199</th>
+							  <td class="wht_tbl tp-win">135705.15</td>
+							  <td class="wht_tbl tp-win">1.50000000</td>
+							  <td class="wht_tbl tp-win">7489.19</td>
+							</tr>
+							<tr>
+							 <th scope="row" class="tp-win">8.11130199</th>
+							  <td class="wht_tbl tp-win">135705.15</td>
+							  <td class="wht_tbl tp-win">1.50000000</td>
+							  <td class="wht_tbl tp-win">7489.19</td>
+							</tr>
+						  </tbody>
+						</table>
+					</div>
+					<div class="col-md-6">
+						<table class="table red_tbl">
+						  <thead>
+							<tr>
+							  <th scope="col" class="wht_tbl">Ask</th>
+							  <th scope="col" class="wht_tbl">Quantity</th>
+							  <th scope="col" class="wht_tbl">Value</th>
+							  <th scope="col" class="wht_tbl">Sum</th>
+							</tr>
+						  </thead>
+						  <tbody>
+							<tr>
+							  <th scope="row" class="wht_tbl">8.11130199</th>
+							  <td class="wht_tbl">135705.15</td>
+							  <td class="wht_tbl">1.50000000</td>
+							  <td >7489.19</td>
+							</tr>
+							<tr>
+							  <th scope="row" class="wht_tbl">8.11130199</th>
+							  <td class="wht_tbl">135705.15</td>
+							  <td class="wht_tbl">1.50000000</td>
+							  <td>7489.19</td>
+							</tr>
+							<tr>
+							 <th scope="row" class="wht_tbl">8.11130199</th>
+							  <td class="wht_tbl">135705.15</td>
+							  <td class="wht_tbl">1.50000000</td>
+							  <td>7489.19</td>
+							</tr>
+							<tr>
+							 <th scope="row" class="wht_tbl">8.11130199</th>
+							  <td class="wht_tbl">135705.15</td>
+							  <td class="wht_tbl">1.50000000</td>
+							  <td>7489.19</td>
+							</tr>
+							<tr>
+							 <th scope="row" class="wht_tbl">8.11130199</th>
+							  <td class="wht_tbl">135705.15</td>
+							  <td class="wht_tbl">1.50000000</td>
+							  <td>7489.19</td>
+							</tr>
+							<tr>
+							 <th scope="row" class="wht_tbl">8.11130199</th>
+							  <td class="wht_tbl">135705.15</td>
+							  <td class="wht_tbl">1.50000000</td>
+							  <td >7489.19</td>
+							</tr>
+							<tr>
+							 <th scope="row" class="wht_tbl">8.11130199</th>
+							  <td class="wht_tbl">135705.15</td>
+							  <td class="wht_tbl">1.50000000</td>
+							  <td >7489.19</td>
+							</tr>
+							<tr>
+							 <th scope="row" class="wht_tbl">8.11130199</th>
+							  <td class="wht_tbl">135705.15</td>
+							  <td class="wht_tbl">1.50000000</td>
+							  <td >7489.19</td>
+							</tr>
+							<tr>
+							 <th scope="row" class="wht_tbl">8.11130199</th>
+							  <td class="wht_tbl">135705.15</td>
+							  <td class="wht_tbl">1.50000000</td>
+							  <td >7489.19</td>
+							</tr>
+						  </tbody>
+						</table>
+					</div>
+				</div>
+				<div class="row row-style-peresent" style="">
+					<div class="col-md-3 col-sm-2 col-xs-1 orders_media">
+						<h4 class="h4-enjey">
+							<i class="fa fa-book" aria-hidden="true"></i>Orders
+						</h4>
+					</div>
+					<div class="col-md-9 col-sm-10 col-xs-11 text-right orders_media order-width" >
+						<button type="button"  onclick="get_orders()" class="btn btn-light trade_btn trd-btn-opt cusew">
+							ALL ORDERS
+						</button>
+						<button type="button"  onclick="get_bids()" class="btn btn-light trade_btn trd-btn-opt cusew">
+							ALL BIDS
+						</button>
+						<button type="button"  onclick="get_asks()" class="btn btn-light trade_btn trd-btn-opt cusew">
+							ALL ASKS
+						</button>
+						<button type="button"  onclick="get_ord_history()" class="btn btn-light trade_btn trd-btn-opt cusew">
+							ORDERS HISTORY
+						</button>
+						<a type="button" onclick="hide_orders()" class="btn btn-light trade_btn trd-btn-opt-nw push-heby">
+							<i class="fa fa-caret-up cjr-i" aria-hidden="true"  id="orders_up"></i>
+							<i class="fa fa-caret-down cjr-i-down" aria-hidden="true" id="orders_down"></i>
+						</a>
+					</div>
+					<hr>
+				</div>
+				<div id="orders">
+				<div class="row new_bck neon-type" id="ord_history">
+					<div class="table-responsive">
+					<table class="table wht_tbl">
+						  <thead>
+							<tr>
+							  <th scope="col">Side</th>
+							  <th scope="col">Id</th>
+							  <th scope="col">Asset</th>
+							  <th scope="col">Type</th>
+							  <th scope="col">Quantity</th>
+							  <th scope="col">Price</th>
+							  <th scope="col">Fee</th>
+							  <th scope="col">Status</th>
+							  <th scope="col">Date</th>
+							</tr>
+						  </thead>
+						  <tbody>
+							<tr>
+							  <th scope="row">buy</th>
+							  <td>0</td>
+							  <td>BTCUSD</td>
+							  <td>MARKET</td>
+							  <td>0.00000</td>
+							  <td>0.00</td>
+							  <td>0.00</td>
+							  <td>Rejected</td>
+							  <td>05/22/18 19:24:33</td>
+							</tr>
+						  </tbody>
+					</table>
+					</div>
+				</div>
+				<div class="row new_bck div-row-stl"  id="all_orders">
+					<h2 class="open-set kalia">No orders have been placed.</h2>
+				</div>
+				</div>
+			</div>
+			<div class="col-md-4 col-sm-12 col-xs-12 wx-etp">
+				<div class="row zxw-ot" >
+					<div class="col-md-9 col-sm-9 col-xs-9 ost-w">
+						<h4 class="h4-style-nm">
+							<i class="fa fa-user" aria-hidden="true"></i>Advanced Order Entry
+						</h4>
+					</div>
+					<div class="col-md-3 text-right col-sm-3 col-xs-3 tec-ope">
+						<a type="button" class="btn btn-light trade_btn trade-bitsq" onclick="hide_market()">
+							<i class="fa fa-caret-up ip-up-i" aria-hidden="true" id="market_up" ></i>
+							<i class="fa fa-caret-down ip-down-i" aria-hidden="true" id="market_down"></i>
+						</a>
+					</div>
+					<hr>
+				</div>
+				<div id="market">
+				<div class="row new_bck">
+					<div class="col-md-3 col-sm-3 col-xs-3 block_change block_change-new"  onclick="get_Market()">
+						MARKET
+					</div> 
+					<div class="col-md-3 col-sm-3 col-xs-3 block_change  block_change-new"  onclick="get_Limit()">
+						LIMIT
+					</div>
+					<div class="col-md-3 col-sm-3 col-xs-3 block_change  block_change-new"  onclick="get_Stop()">
+						STOP
+					</div>
+					<div class="col-md-3 col-sm-3 col-xs-3 block_change2  block_change-new" >
+						<a  class="buy-btn" href="#">FUND ACCOUNT</a>
+					</div>
+				</div>
+				<div class="row new_bck jey-won" id="market_show">
+					<div class="row">
+						<div class="col-md-12 width-eur">
+							<div class="form-group form-wit">
+							<label for="exampleInputSum" class="label-shine">AMOUNT BTC</label>
+							<input type="number" class="form-control email" id="amount_btc" min="1">
+						  </div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-6 col-sm-6 col-xs-6">
+							<div class="row complete-wor">
+								<div class="col-md-3 perc">100%</div>
+								<div class="col-md-3 perc">75%</div>
+								<div class="col-md-3 perc">50%</div>
+								<div class="col-md-3 perc">25%</div>
+							</div>
+							<div class="form-group">
+								<label for="exampleInputSum" class="label-shine">MARKET BUY PRICE USD</label>
+								<input type="number" min="25.00" class="form-control trade_place" id="exampleInputSum" placeholder="$7604.5800">
+								<small  class="label-shine" >Min order value $25.00</small>
+							</div>
+							<button type="submit" class="btn btn-light btn_green col-md-12 btn-market">BUY MARKET</button>
+						</div>
+						<div class="col-md-6 col-sm-6 col-xs-6">
+							<div class="row row-baks">
+								<div class="col-md-3 perc2">100%</div>
+								<div class="col-md-3 perc2">75%</div>
+								<div class="col-md-3 perc2">50%</div>
+								<div class="col-md-3 perc2">25%</div>
+							</div>
+							<div class="form-group form-wit">
+								<label for="exampleInputSum" class="label-shine">MARKET SELL PRICE USD</label>
+								<input type="number" min="25.00" class="form-control trade_place2" id="exampleInputSum" placeholder="$7574.1200">
+								<small class="label-shine-new">Min order value $25.00</small>
+							</div>
+							<button type="submit" class=" btn btn-light btn_green col-md-12 btb-tr">SELL MARKET</button>
+						</div>
+					</div>
+				</div>
+				<div class="row new_bck limit-eowe" id="limit_show">
+					<div class="row row-mear">
+						<div class="col-md-6 col-sm-6 col-xs-6">
+							<div class="form-group">
+								<label class="label-shine" for="exampleInputSum">AMOUNT BTC</label>
+								<input type="number" min="1" class="form-control" id="exampleInputSum" placeholder="1">
+								<small  class="label-shine">Min order value $25.00</small>
+							</div>
+							<button type="submit" class="btn btn-light btn_green col-md-12 btb-tr">BUY LIMIT</button>
+						</div>
+						<div class="col-md-6 col-sm-6 col-xs-6">
+							<div class="form-group form-wit">
+								<label for="exampleInputSum" class="label-shine">LIMIT PRICE USD</label>
+								<input type="number" min="0" class="form-control" id="exampleInputSum" placeholder="0">
+								<small class="label-shine-new">Min order value $25.00</small>
+							</div>
+							<button type="submit" class=" btn btn-light btn_green col-md-12 btn-aop">SELL LIMIT</button>
+						</div>
+					</div>
+				</div>
+				<div class="row new_bck jey-for" id="stop_show">
+					<div class="row row-mear">
+						<div class="col-md-6 col-sm-6 col-xs-6">
+							<div class="form-group">
+								<label for="exampleInputSum" class="label-shine">AMOUNT BTC</label>
+								<input type="number" min="1" class="form-control" id="exampleInputSum" placeholder="1">
+								<small class="label-shine">Min order value $25.00</small>
+							</div>
+							<button type="submit" class="btn btn-light btn_green col-md-12 btn-kols">BUY STOP</button>
+						</div>
+						<div class="col-md-6 col-sm-6 col-xs-6">
+							<div class="form-group  form-wit">
+								<label for="exampleInputSum" class="label-shine">STOP PRICE USD</label>
+								<input type="number" min="0" class="form-control" id="exampleInputSum" placeholder="0">
+								<small class="label-shine-new">Min order value $25.00</small>
+							</div>
+							<button type="submit" class=" btn btn-light btn_green col-md-12 btn-emoiy">SELL STOP</button>
+						</div>
+					</div>
+				</div>
+				</div>
+				<div class="row row-bearst">
+					<div class="col-md-6 col-sm-6 funw">
+						<h4 class="h4-dekoy">
+							<i class="fa fa-usd" aria-hidden="true"></i>Your Wallets
+						</h4>
+					</div>
+					<div class="col-md-6 col-sm-6 text-right text-width-e">
+						<a type="button" onclick="hide_wallets()" class="btn btn-light trade_btn dw-event" style="">
+							<i class="fa fa-caret-up pudding-up" aria-hidden="true"  id="wallet_up"></i>
+							<i class="fa fa-caret-down event-pt"  aria-hidden="true" id="wallet_down"></i>
+						</a>
+					</div>
+					<hr>
+				</div>
+				<div id="wallet">
+				<div class="row rw_wht_bl new_bck new-pts">
+					<p class="p_wht_block2"><img src="img/btc.png" width="18px" height="18px"> BTC <span class="grey">0.00000000</span></p>
+				</div>
+				<div class="row rw_wht_bll new_bck">
+					<p class="p_wht_block2"><img src="img/eth.png" width="18px" height="18px"> ETH <span class="grey">0.00000000</span></p>
+				</div>
+				<div class="row rw_wht_bll new_bck">
+					<p class="p_wht_block2"><img src="img/ltc.png" width="18px" height="18px"> LTC <span class="grey">0.00000000</span></p>
+				</div>
+				<div class="row rw_wht_bll new_bck">
+					<p class="p_wht_block2"><img src="img/xrp.png" width="18px" height="18px"> XRP <span class="grey">0.00000000</span></p>
+				</div>
+				<div class="row rw_wht_bll new_bck">
+					<p class="p_wht_block2"><img src="img/dash.png" width="18px" height="18px"> DASH <span class="grey">0.00000000</span></p>
+				</div>
+				<div class="row rw_wht_bll new_bck">
+					<p class="p_wht_block2"><img src="img/bch.png" width="18px" height="18px"> BCH <span class="grey">0.00000000</span></p>
+				</div>
+				<div class="row rw_wht_bll new_bck">
+					<p class="p_wht_block2"><img src="img/usd.png" width="18px" height="18px"> USD <span class="grey">0.00000000</span></p>
+				</div>
+				<div class="row rw_wht_bll new_bck">
+					<p class="p_wht_block2"><img src="img/eos.png" width="18px" height="18px"> EOS <span class="grey">0.00000000</span></p>
+				</div>
+				<div class="row rw_wht_bll new_bck">
+					<p class="p_wht_block2"><img src="img/omg.png" width="18px" height="18px"> OMG <span class="grey">0.00000000</span></p>
+				</div>
+				<div class="row rw_wht_bll new_bck">
+					<p class="p_wht_block2"><img src="img/zec.png" width="18px" height="18px"> ZEC <span class="grey">0.00000000</span></p>
+				</div>
+				<div class="row rw_wht_bll new_bck">
+					<p class="p_wht_block2"><img src="img/iota.png" width="18px" height="18px"> IOTA <span class="grey">0.00000000</span></p>
+				</div>
+				<div class="row rw_wht_bll new_bck">
+					<p class="p_wht_block2"><img src="img/gnt.png" width="18px" height="18px"> GNT <span class="grey">0.00000000</span></p>
+				</div>
+				<div class="row rw_wht_bll new_bck">
+					<p class="p_wht_block2"><img src="img/trx.png" width="18px" height="18px"> TRX <span class="grey">0.00000000</span></p>
+				</div>
+				<div class="row rw_wht_bll new_bck">
+					<p class="p_wht_block2"><img src="img/zrx.png" width="18px" height="18px"> ZRX <span class="grey">0.00000000</span></p>
+				</div>
+				<div class="row rw_wht_bll new_bck">
+					<p class="p_wht_block2"><img src="img/ubq.png" width="18px" height="18px"> UBQ <span class="grey">0.00000000</span></p>
+				</div>
+				</div>
+				<div class="row row-events">
+					<div class="col-md-3 trade_trade_emd div-events">
+						<h4 class="h4-dekoy">
+							<i class="fa fa-usd" aria-hidden="true"></i>Trades
+						</h4>
+					</div>
+					<div class="col-md-9 text-right trade_trade_emd option-efer dsply-cone">
+						<button type="button"  onclick="get_market_trades()" class="btn btn-light trade_btn try-het">
+							MARKET TRADES
+						</button>
+						<button type="button"  onclick="get_my_trades()" class="btn btn-light trade_btn try-het">
+							MY TRADES
+						</button>
+						<a type="button" onclick="hide_trades()" class="btn btn-light trade_btn try-he">
+							<i class="fa fa-caret-up pudding-up" aria-hidden="true" id="trades_up" ></i>
+							<i class="fa fa-caret-down event-pt" aria-hidden="true" id="trades_down"></i>
+						</a>
+					</div>
+				</div>
+				<div class="trades-div" id="trades" >
+				<div class="row my-trades" id="my_trades">
+			
+				</div>
+				<div class="row new_bck btps-er" id="market_trades">
+					<div class="response-obj">
+					<table class="table wht_tbl">
+					  <thead>
+						<tr>
+						  <th scope="col">Price</th>
+						  <th scope="col">Quantity</th>
+						  <th scope="col">Time</th>
+						</tr>
+					  </thead>
+					  <tbody class="font-size-realise">
+						<tr>
+						  <th scope="row" class="green_tbl">7496.79</th>
+						  <td>0.00019057</td>
+						  <td>22:51:27</td>
+						</tr>
+						<tr>
+						  <th scope="row" class="red_tbl">7496.79</th>
+						  <td>0.00019057</td>
+						  <td>22:51:27</td>
+						</tr>
+						<tr>
+						  <th scope="row" class="red_tbl">7496.79</th>
+						  <td>0.00019057</td>
+						  <td>22:51:27</td>
+						</tr>
+						<tr>
+						  <th scope="row" class="green_tbl">7496.79</th>
+						  <td>0.00019057</td>
+						  <td>22:51:27</td>
+						</tr>
+						<tr>
+						  <th scope="row" class="green_tbl">7496.79</th>
+						  <td>0.00019057</td>
+						  <td>22:51:27</td>
+						</tr>
+						<tr>
+						  <th scope="row" class="green_tbl">7496.79</th>
+						  <td>0.00019057</td>
+						  <td>22:51:27</td>
+						</tr>
+						<tr>
+						  <th scope="row" class="red_tbl">7496.79</th>
+						  <td>0.00019057</td>
+						  <td>22:51:27</td>
+						</tr>
+						<tr>
+						  <th scope="row" class="red_tbl">7496.79</th>
+						  <td>0.00019057</td>
+						  <td>22:51:27</td>
+						</tr>
+						<tr>
+						  <th scope="row" class="green_tbl">7496.79</th>
+						  <td>0.00019057</td>
+						  <td>22:51:27</td>
+						</tr>
+						<tr>
+						  <th scope="row" class="red_tbl">7496.79</th>
+						  <td>0.00019057</td>
+						  <td>22:51:27</td>
+						</tr>
+						<tr>
+						  <th scope="row" class="red_tbl">7496.79</th>
+						  <td>0.00019057</td>
+						  <td>22:51:27</td>
+						</tr>
+						<tr>
+						  <th scope="row" class="green_tbl">7496.79</th>
+						  <td>0.00019057</td>
+						  <td>22:51:27</td>
+						</tr>
+					  </tbody>
+					</table>
+					</div>
+				</div>
+				</div>
+			</div> <!-- 4 -->
+		</div> <!-- row main -->
+	</div> <!-- CONTAINER-->
+	<footer id="myFooter" class="footer-bl">
+       <div class="container">
+       <div class="row">
+		<div class="col-md-1 col-xs-12 col-sm-12"></div>
+		<div class="col-md-2 col-xs-12 col-sm-12 text-center footer_marg">
+			<h2>	<img src="logo.png" class="img-fluid"></h2>
+		</div>
+		<div class="col-md-2 col-xs-6 col-sm-6 text-center footer_marg">
+			<p><b>ADDRESS</b></p>
+			<p>717 W Pender St, 3rd Floor</p>
+			<p>Vancouver, British Columbia</p>
+			<p>Canada, V6C 2X6</p>
+			<p>1-877-787-6885</p>
+			<p>604-800-3303</p>
+		</div>
+		<div class="col-md-2 col-xs-6 col-sm-6 text-center footer_marg">
+			<p><b>CONTACT</b></p>
+			<p><a>Twitter</a></p>
+			<p><a>Facebool</a></p>
+			<p><a>Reddit</a></p>
+			<p><a>Blog</a></p>
+		</div>
+		<div class="col-md-2 col-xs-6 col-sm-6 text-center footer_marg">
+			<p><b>ABOUT Digital-Exchange</b></p>
+			<p><a>Meet the Team</a></p>
+			<p><a>Pricing</a></p>
+			<p><a>Contact Us</a></p>
+			<p><a>FAQ</a></p>
+		</div>
+		<div class="col-md-2 col-xs-6 col-sm-6 text-center footer_marg"><p><b>CUSTOMERS</b></p>
+			<p><a>Digital-Exchange User Agreement</a></p>
+			<p><a>Privacy Policy</a></p></div>
+		<div class="col-md-1 col-xs-12 col-sm-12"></div>
+	   </div>
+	   </div>
+    </footer>
+<!-- <script type="text/javascript" src="js/bootstrap.bundle.js"></script> -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
+<!-- <script type="text/javascript" src="js/bootstrap.js"></script> -->
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script src="https://canvasjs.com/assets/script/jquery-1.11.1.min.js"></script>
+<script src="https://canvasjs.com/assets/script/jquery-ui.1.11.2.min.js"></script>
+<script src="https://canvasjs.com/assets/script/jquery.canvasjs.min.js"></script>
+
+<script>
+    function hide_trades() {
+        var x = document.getElementById("trades");
+        if (x.style.display === "none") {
+            x.style.display = "block";
+        } else {
+            x.style.display = "none";
+        }
+        var y = document.getElementById("trades_up");
+        var x = document.getElementById("trades_down");
+        if (x.style.display === "block") {
+
+            y.style.display = "block";
+            x.style.display = "none";
+        }
+        else {
+            y.style.display = "none";
+            x.style.display = "block";
+        }
+    }
+    $(function(){
+        $("#hide_block").show();
+    });
+    function hide_market() {
+        var x = document.getElementById("market");
+        if (x.style.display === "none") {
+            x.style.display = "block";
+        } else {
+            x.style.display = "none";
+        }
+        var y = document.getElementById("market_up");
+        var x = document.getElementById("market_down");
+        if (x.style.display === "block") {
+
+            y.style.display = "block";
+            x.style.display = "none";
+        }
+        else {
+            y.style.display = "none";
+            x.style.display = "block";
+        }
+    }
+    $(function(){
+        $("#hide_block").show();
+    });
+    function hide_wallets() {
+        var x = document.getElementById("wallet");
+        if (x.style.display === "none") {
+            x.style.display = "block";
+        } else {
+            x.style.display = "none";
+        }
+        var y = document.getElementById("wallet_up");
+        var x = document.getElementById("wallet_down");
+        if (x.style.display === "block") {
+
+            y.style.display = "block";
+            x.style.display = "none";
+        }
+        else {
+            y.style.display = "none";
+            x.style.display = "block";
+        }
+    }
+    $(function(){
+        $("#hide_block").show();
+    });
+    function hide_orders() {
+        var x = document.getElementById("orders");
+        if (x.style.display === "none") {
+            x.style.display = "block";
+        } else {
+            x.style.display = "none";
+        }
+        var y = document.getElementById("orders_up");
+        var x = document.getElementById("orders_down");
+        if (x.style.display === "block") {
+
+            y.style.display = "block";
+            x.style.display = "none";
+        }
+        else {
+            y.style.display = "none";
+            x.style.display = "block";
+        }
+    }
+    $(function(){
+        $("#hide_block").show();
+    });
+    function hide_book() {
+        var x = document.getElementById("book");
+        if (x.style.display === "none") {
+            x.style.display = "block";
+        }
+
+        else {
+            x.style.display = "none";
+        }
+
+        var y = document.getElementById("book_up");
+        var x = document.getElementById("book_down");
+        if (x.style.display === "block") {
+
+            y.style.display = "block";
+            x.style.display = "none";
+        }
+        else {
+            y.style.display = "none";
+            x.style.display = "block";
+        }
+    }
+    $(function(){
+        $("#hide_block").show();
+    });
+    function get_Limit() {
+        document.getElementById("limit_show").style.display = "block";
+        document.getElementById("market_show").style.display = "none";
+        document.getElementById("stop_show").style.display = "none";
+        document.getElementById("fund_show").style.display = "none";
+    }
+    function get_Market() {
+        document.getElementById("limit_show").style.display = "none";
+        document.getElementById("market_show").style.display = "block";
+        document.getElementById("stop_show").style.display = "none";
+        document.getElementById("fund_show").style.display = "none";
+    }
+    function get_Stop() {
+        document.getElementById("limit_show").style.display = "none";
+        document.getElementById("market_show").style.display = "none";
+        document.getElementById("stop_show").style.display = "block";
+        document.getElementById("fund_show").style.display = "none";
+    }
+    function get_ord_history() {
+        document.getElementById("all_bids").style.display = "none";
+        document.getElementById("all_orders").style.display = "none";
+        document.getElementById("ord_history").style.display = "block";
+        document.getElementById("all_asks").style.display = "none";
+    }
+    function get_bids() {
+        document.getElementById("all_bids").style.display = "block";
+        document.getElementById("all_orders").style.display = "none";
+        document.getElementById("ord_history").style.display = "none";
+        document.getElementById("all_asks").style.display = "none";
+    }
+    function get_orders() {
+        document.getElementById("all_bids").style.display = "none";
+        document.getElementById("all_orders").style.display = "block";
+        document.getElementById("ord_history").style.display = "none";
+        document.getElementById("all_asks").style.display = "none";
+    }
+    function get_asks() {
+        document.getElementById("all_bids").style.display = "none";
+        document.getElementById("all_orders").style.display = "none";
+        document.getElementById("ord_history").style.display = "none";
+        document.getElementById("all_asks").style.display = "block";
+    }
+    function get_my_trades() {
+        document.getElementById("my_trades").style.display = "block";
+        document.getElementById("market_trades").style.display = "none";
+    }
+    function get_market_trades() {
+        document.getElementById("my_trades").style.display = "none";
+        document.getElementById("market_trades").style.display = "block";
+    }
+    function get_order_book_row_up() {
+        document.getElementById("ord_bk_down").style.display = "block";
+        document.getElementById("ord_bk_up").style.display = "none";
+    }
+</script>
+</body>
+</html>

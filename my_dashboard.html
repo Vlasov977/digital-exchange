@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>MY DASHBOARD</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" media="screen">
+<link rel="stylesheet" href="css/bootstrap-grid.min.css" type="text/css" media="screen">
+<link rel="stylesheet" href="css/bootstrap-reboot.min.css" type="text/css" media="screen">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/font-awesome.min.css" type="text/css" media="screen">
+<link href="https://canvasjs.com/assets/css/jquery-ui.1.11.2.min.css" rel="stylesheet" />
+
+</head>
+<body>
+<button onclick="topFunction()" id="myBtn" title="Go to top"> <i class="fa fa-sort-asc" aria-hidden="true"> </i> </button>
+<div id="header">
+			<div class="row">
+				<div class="col-md-3 col-sm-12 text-center block-lg"><a href="http://repobank.io"><img src="logo.png" class="img-fluid"></a></div>
+				<div class="col-md-5 col-sm-12 text-center text-right">
+					<div class="row">
+						<h1 class="marquee">
+							<span>
+								<div class="quick_info_block2"><p>BTC</p><p>$622.2400</p><p id="percentage">5.96%</p></div>
+								<div class="quick_info_block2"><p>ETH</p><p>$622.2400</p><p id="percentage">5.96%</p></div>
+								<div class="quick_info_block2"><p>LTC</p><p>$622.2400</p><p id="percentage">5.96%</p></div>
+								<div class="quick_info_block2"><p>XRP</p><p>$622.2400</p><p id="percentage">5.96%</p></div>
+								<div class="quick_info_block2"><p>DASH</p><p>$622.2400</p><p id="percentage">5.96%</p></div>
+								<div class="quick_info_block2"><p>BCH</p><p>$622.2400</p><p id="percentage">5.96%</p></div>
+								<div class="quick_info_block2"><p>USD</p><p>$622.2400</p><p id="percentage">5.96%</p></div>
+							</span>
+						</h1>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-12 text-center">
+					<a class="btn btn-secondary dropdown-toggle acc_name" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Account_Name</a>
+						<div class="dropdown-menu menu-style" aria-labelledby="dropdownMenuLink">
+							<a class="dropdown-item" href="#">Log out</a>
+						 </div> 
+				 </div> 
+			</div>
+		<p></p><p></p>&nbsp;
+
+		<div class="row">
+			<div class="col-md-12">
+			
+			<nav class="navbar navbar-expand-md navbar-light bg-light">
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" style="border-color:#f8f9fa;margin: 0 auto;">
+						<i class="fa fa-align-justify"  aria-hidden="true"></i>
+					</button>
+
+					<div class="collapse navbar-collapse" id="navbarSupportedContent">
+						<ul class="navbar-nav mr-auto col-lg-12 jes-nav">
+						  <li class="nav-item">
+							<a class="nav-link under_dec" href="my_dashboard.html">MY DASHBOARD</a>
+						  </li>
+						  <li class="nav-item">
+							<a class="nav-link under_dec_need" href="wallets.html">WALLETS</a>
+						  </li>
+						  <li class="nav-item">
+							<a class="nav-link under_dec_need" href="trade.html">TRADE</a>
+						  </li>
+						  <li class="nav-item">
+							<a class="nav-link under_dec_need" href="transactions.html">TRANSACTIONS</a>
+						  </li>
+
+						</ul>
+					</div>
+				</nav>
+			</div>
+		</div>
+	</div>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-md-1"></div>
+			<div class="col-md-5">
+				<div class="ur_wallet wht_bl">
+					<div class="row">
+						<div class="col-md-6 col-md-6 col-xs-6 all-col">
+							<h2>
+								<i class="fa fa-usd" aria-hidden="true"></i>Your wallet
+							</h2>
+						</div>
+						<div class="col-md-6 col-md-6 col-xs-6 all-col">
+							<a  type="button"  href="wallets.html" class="btn btn-light btn_blue button_all_blue btn_wall">VIEW YOUR BALANCES</a>
+						</div>
+						<hr>
+					</div>
+					<div class="row rw_wht_bll">
+						<p class="p_wht_block"><img class="img-wht-block" src="img/btc.png"> Bitcoin </p>
+					</div>
+					<div class="row rw_wht_bll">
+						<p class="p_wht_block"><img class="img-wht-block" src="img/eth.png"> Ethereum </p>
+					</div>
+					<div class="row rw_wht_bll">
+						<p class="p_wht_block"><img class="img-wht-block" src="img/ltc.png"> Litecoin </p>
+					</div>
+					<div class="row rw_wht_bll">
+						<p class="p_wht_block"><img class="img-wht-block" src="img/xrp.png"> Ripple </p>
+					</div>
+					<div class="row rw_wht_bll">
+						<p class="p_wht_block"><img class="img-wht-block" src="img/dash.png"> Dash </p>
+					</div>
+					<div class="row rw_wht_bll">
+						<p class="p_wht_block"><img class="img-wht-block" src="img/bch.png"> Bitcoin Cash </p>
+					</div>
+					<div class="row rw_wht_bll">
+						<p class="p_wht_block"><img class="img-wht-block" src="img/usd.png"> American Dollar </p>
+					</div>
+					<div class="row rw_wht_bll">
+						<p class="p_wht_block"><img class="img-wht-block" src="img/eos.png"> EOS </p>
+					</div>
+					<div class="row rw_wht_bll">
+						<p class="p_wht_block"><img class="img-wht-block" src="img/omg.png"> OmiseGo </p>
+					</div>
+					<div class="row rw_wht_bll">
+						<p class="p_wht_block"><img class="img-wht-block" src="img/zec.png"> Zcash </p>
+					</div>
+					<div class="row rw_wht_bll">
+						<p class="p_wht_block"><img class="img-wht-block" src="img/iota.png"> IOTA </p>
+					</div>
+					<div class="row rw_wht_bll">
+						<p class="p_wht_block"><img class="img-wht-block" src="img/gnt.png"> GNT </p>
+					</div>
+					<div class="row rw_wht_bll">
+						<p class="p_wht_block"><img class="img-wht-block" src="img/trx.png"> TRX </p>
+					</div>
+					<div class="row rw_wht_bll">
+						<p class="p_wht_block"><img class="img-wht-block" src="img/zrx.png"> ZRX </p>
+					</div>
+					<div class="row rw_wht_bll">
+						<p class="p_wht_block"><img class="img-wht-block" src="img/ubq.png"> UBIQ </p>
+					</div>
+				</div>
+				<div class="ur_wallet wht_bl">
+					<div class="row">
+						<div class="col-md-6 button_all_blue col-md-6 col-xs-6">
+							<h2>
+								<i class="fa fa-refresh" aria-hidden="true"></i>Latest Activity
+							</h2>
+						</div>
+						<div class="col-md-6 col-md-6 col-xs-6 width-col">
+							<a type="button" href="transactions.html" class="btn btn-light btn_blue button_all_blue btn_wall btn-shafe">VIEW YOUR HISTORY</a>
+						</div>
+						<hr>
+					</div>
+					<div class="row pdng optic-row">
+						<p class="grey">You have no existing activity. Deposit some currency to get started.</p>
+					</div>
+					<div class="row pdnglr" >
+						<a type="button" href="#" class="btn btn-light btn_blue btn_wall btn-shafe-2 btn-trans">DEPOSIT BITCOIN</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-5 ur_wallet_graph wht_bl block-raise">
+				<div class="row">
+					<div class="col-md-6 col-md-6 col-xs-6 item-width">
+					<h2>
+						<i class="fa fa-line-chart" aria-hidden="true"></i>Market
+					</h2>
+					</div>
+					<div class="col-md-6 col-md-6 col-xs-6 item-width">
+						<a type="button"  href="trade.html" class="btn btn-light btn_blue button_all_blue btn_wall btn-shafe">START TRADING</a>
+					</div>
+				</div>
+				<hr>
+				<div class="row pdnglr">
+					<div class="col-md-12 market_block">
+						<a onclick="show_btc_gr()" href="#spoiler1" class="btn btn-primary"><h3><img src="img/btc.png"  class="img-wht-block"> BTC <i style="font-size: 13px; color: grey;">(last 24 hours)</i>
+								<i class="text-ish">$7436,34</i>
+								<i class="grey2">1,24% <i class="fa fa-caret-up" aria-hidden="true"></i></i></h3></a>
+						<div id="btc_gr">
+							<h1>$591.6400 USD</h1>
+							<div id="chartContainer1"  class="size-raise"></div>
+						</div>
+					</div>
+				</div>
+				<div class="row pdnglr">
+					<div class="col-md-12 market_block">
+						<a onclick="show_eth_gr()" href="#spoiler1" class="btn btn-primary"><h3><img src="img/eth.png" class="img-wht-block"> ETH <i style="font-size: 13px; color: grey;">(last 24 hours)</i>
+								<i class="text-ish">$7436,34</i>
+								<i class="grey2">1,24% <i class="fa fa-caret-up" aria-hidden="true"></i></i></h3></a>
+						<div id="eth_gr">
+							<h1>$591.6400 USD</h1>
+							<div id="chartContainer2"  class="size-raise"></div>
+						</div>
+					</div>
+				</div>
+				<div class="row pdnglr">
+					<div class="col-md-12 market_block">
+						<a onclick="show_eth2_gr()" href="#spoiler1" class="btn btn-primary"><h3><img src="img/ltc.png" class="img-wht-block"> LTC <i style="font-size: 13px; color: grey;">(last 24 hours)</i>
+								<i class="text-ish">$7436,34</i>
+								<i class="grey2">1,24% <i class="fa fa-caret-up" aria-hidden="true"></i></i></h3></a>
+						<div id="eth2_gr">
+							<h1>$591.6400 USD</h1>
+							<div id="chartContainer3" class="size-raise"></div>
+						</div>
+					</div>
+				</div>
+				<div class="row pdnglr">
+					<div class="col-md-12 market_block">
+						<a onclick="show_eth3_gr()" href="#spoiler1" class="btn btn-primary"><h3><img src="img/xrp.png" class="img-wht-block"> XRP <i style="font-size: 13px; color: grey;">(last 24 hours)</i>
+								<i class="text-ish">$7436,34</i>
+								<i class="grey2">1,24% <i class="fa fa-caret-up" aria-hidden="true"></i></i></h3></a>
+						<div id="eth3_gr">
+							<h1>$591.6400 USD</h1>
+							<div id="chartContainer4"  class="size-raise"></div>
+						</div>
+					</div>
+				</div>
+				<div class="row pdnglr">
+					<div class="col-md-12 market_block">
+						<a onclick="show_eth4_gr()" href="#spoiler1" class="btn btn-primary"><h3><img src="img/dash.png"  class="img-wht-block"> DASH <i style="font-size: 13px; color: grey;">(last 24 hours)</i>
+								<i class="text-ish">$7436,34</i>
+								<i class="grey2">1,24% <i class="fa fa-caret-up" aria-hidden="true"></i></i></h3></a>
+						<div id="eth4_gr">
+							<h1>$591.6400 USD</h1>
+							<div id="chartContainer5" class="size-raise"></div>
+						</div>
+					</div>
+				</div>
+				<div class="row pdnglr">
+					<div class="col-md-12 market_block">
+						<a onclick="show_eth5_gr()" href="#spoiler1" class="btn btn-primary"><h3><img src="img/bch.png"  class="img-wht-block"> BCH <i style="font-size: 13px; color: grey;">(last 24 hours)</i>
+								<i class="text-ish">$7436,34</i>
+								<i class="grey2">1,24% <i class="fa fa-caret-up" aria-hidden="true"></i></i></h3></a>
+						<div id="eth5_gr">
+							<h1>$591.6400 USD</h1>
+							<div id="chartContainer6" class="size-raise"></div>
+						</div>
+					</div>
+				</div>
+				<div class="row pdnglr">
+					<div class="col-md-12 market_block">
+						<a onclick="show_eth6_gr()" href="#spoiler1" class="btn btn-primary"><h3><img src="img/usd.png"  class="img-wht-block"> USD <i style="font-size: 13px; color: grey;">(last 24 hours)</i>
+								<i class="text-ish">$7436,34</i>
+								<i class="grey2">1,24% <i class="fa fa-caret-up" aria-hidden="true"></i></i></h3></a>
+						<div id="eth6_gr">
+							<h1>$591.6400 USD</h1>
+							<div id="chartContainer7"  class="size-raise"></div>
+						</div>
+					</div>
+				</div>
+				<div class="row pdnglr">
+					<div class="col-md-12 market_block">
+						<a onclick="show_eth7_gr()" href="#spoiler1" class="btn btn-primary"><h3><img src="img/eos.png"  class="img-wht-block"> EOS <i style="font-size: 13px; color: grey;">(last 24 hours)</i>
+								<i class="text-ish">$7436,34</i>
+								<i class="grey2">1,24% <i class="fa fa-caret-up" aria-hidden="true"></i></i></h3></a>
+						<div id="eth7_gr">
+							<h1>$591.6400 USD</h1>
+							<div id="chartContainer8" class="size-raise"></div>
+						</div>
+					</div>
+				</div>
+				<div class="row pdnglr">
+					<div class="col-md-12 market_block">
+						<a onclick="show_eth8_gr()" href="#spoiler1" class="btn btn-primary"><h3><img src="img/omg.png"  class="img-wht-block"> OMG <i style="font-size: 13px; color: grey;">(last 24 hours)</i>
+								<i class="text-ish">$7436,34</i>
+								<i class="grey2">1,24% <i class="fa fa-caret-up" aria-hidden="true"></i></i></h3></a>
+						<div id="eth8_gr">
+							<h1>$591.6400 USD</h1>
+							<div id="chartContainer9" class="size-raise"></div>
+						</div>
+					</div>
+				</div>
+				<div class="row pdnglr">
+					<div class="col-md-12 market_block">
+						<a onclick="show_eth9_gr()" href="#spoiler1" class="btn btn-primary"><h3><img src="img/zec.png"  class="img-wht-block"> ZEC <i style="font-size: 13px; color: grey;">(last 24 hours)</i>
+								<i class="text-ish">$7436,34</i>
+								<i class="grey2">1,24% <i class="fa fa-caret-up" aria-hidden="true"></i></i></h3></a>
+						<div id="eth9_gr">
+							<h1>$591.6400 USD</h1>
+							<div id="chartContainer10"  class="size-raise"></div>
+						</div>
+					</div>
+				</div>
+				<div class="row pdnglr">
+					<div class="col-md-12 market_block">
+						<a onclick="show_eth10_gr()" href="#spoiler1" class="btn btn-primary"><h3><img src="img/iota.png"  class="img-wht-block"> IOTA <i style="font-size: 13px; color: grey;">(last 24 hours)</i>
+								<i class="text-ish">$7436,34</i>
+								<i class="grey2">1,24% <i class="fa fa-caret-up" aria-hidden="true"></i></i></h3></a>
+						<div id="eth10_gr">
+							<h1>$591.6400 USD</h1>
+							<div id="chartContainer11" class="size-raise"></div>
+						</div>
+					</div>
+				</div>
+				<div class="row pdnglr">
+					<div class="col-md-12 market_block">
+						<a onclick="show_eth11_gr()" href="#spoiler1" class="btn btn-primary"><h3><img src="img/gnt.png"  class="img-wht-block"> GNT <i style="font-size: 13px; color: grey;">(last 24 hours)</i>
+								<i class="text-ish">$7436,34</i>
+								<i class="grey2">1,24% <i class="fa fa-caret-up" aria-hidden="true"></i></i></h3></a>
+						<div id="eth11_gr">
+							<h1>$591.6400 USD</h1>
+							<div id="chartContainer12" class="size-raise"></div>
+						</div>
+					</div>
+				</div>
+				<div class="row pdnglr">
+					<div class="col-md-12 market_block">
+						<a onclick="show_eth12_gr()" href="#spoiler1" class="btn btn-primary"><h3><img src="img/trx.png" class="img-wht-block"> TRX <i style="font-size: 13px; color: grey;">(last 24 hours)</i>
+								<i class="text-ish">$7436,34</i>
+								<i class="grey2">1,24% <i class="fa fa-caret-up" aria-hidden="true"></i></i></h3></a>
+						<div id="eth12_gr">
+							<h1>$591.6400 USD</h1>
+							<div id="chartContainer13" class="size-raise"></div>
+						</div>
+					</div>
+				</div>
+				<div class="row pdnglr">
+					<div class="col-md-12 market_block">
+						<a onclick="show_eth13_gr()" href="#spoiler1" class="btn btn-primary"><h3><img src="img/zrx.png"  class="img-wht-block"> ZRX <i style="font-size: 13px; color: grey;">(last 24 hours)</i>
+								<i class="text-ish">$7436,34</i>
+								<i class="grey2">1,24% <i class="fa fa-caret-up" aria-hidden="true"></i></i></h3></a>
+						<div id="eth13_gr">
+							<h1>$591.6400 USD</h1>
+							<div id="chartContainer14"  class="size-raise"></div>
+						</div>
+					</div>
+				</div>
+				<div class="row pdnglr">
+					<div class="col-md-12 market_block">
+						<a onclick="show_eth14_gr()" href="#spoiler1" class="btn btn-primary"><h3><img src="img/ubq.png"  class="img-wht-block"> UBQ <i style="font-size: 13px; color: grey;">(last 24 hours)</i>
+								<i class="text-ish">$7436,34</i>
+								<i class="grey2">1,24% <i class="fa fa-caret-up" aria-hidden="true"></i></i></h3></a>
+						<div id="eth14_gr">
+							<h1>$591.6400 USD</h1>
+							<div id="chartContainer15"  class="chart-cont"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-1"></div>
+		</div>
+	</div>
+	<footer id="myFooter" class="footer-bl">
+       <div class="container">
+       <div class="row">
+		<div class="col-md-1 col-xs-12 col-sm-12"></div>
+		<div class="col-md-2 col-xs-12 col-sm-12 text-center footer_marg">
+			<h2>	<img src="logo.png" class="img-fluid"></h2>
+		</div>
+		<div class="col-md-2 col-xs-6 col-sm-6 text-center footer_marg">
+			<p><b>ADDRESS</b></p>
+			<p>717 W Pender St, 3rd Floor</p>
+			<p>Vancouver, British Columbia</p>
+			<p>Canada, V6C 2X6</p>
+			<p>1-877-787-6885</p>
+			<p>604-800-3303</p>
+		</div>
+		<div class="col-md-2 col-xs-6 col-sm-6 text-center footer_marg">
+			<p><b>CONTACT</b></p>
+			<p><a>Twitter</a></p>
+			<p><a>Facebool</a></p>
+			<p><a>Reddit</a></p>
+			<p><a>Blog</a></p>
+		</div>
+		<div class="col-md-2 col-xs-6 col-sm-6 text-center footer_marg">
+			<p><b>ABOUT Digital-Exchange</b></p>
+			<p><a>Meet the Team</a></p>
+			<p><a>Pricing</a></p>
+			<p><a>Contact Us</a></p>
+			<p><a>FAQ</a></p>
+		</div>
+		<div class="col-md-2 col-xs-6 col-sm-6 text-center footer_marg"><p><b>CUSTOMERS</b></p>
+			<p><a>Digital-Exchange User Agreement</a></p>
+			<p><a>Privacy Policy</a></p></div>
+		<div class="col-md-1 col-xs-12 col-sm-12"></div>
+	   </div>
+	   </div>
+    </footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+<script src="https://canvasjs.com/assets/script/jquery.canvasjs.min.js"></script>
+</body>
+</html>
